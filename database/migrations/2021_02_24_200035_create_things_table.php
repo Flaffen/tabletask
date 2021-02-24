@@ -18,7 +18,7 @@ class CreateThingsTable extends Migration
             $table->timestamps();
             $table->date('date');
             $table->string('name');
-            $table->integer('sum');
+            $table->double('sum');
         });
     }
 
