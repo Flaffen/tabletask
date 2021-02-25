@@ -16,7 +16,7 @@ class CreateThingsTable extends Migration
         Schema::create('things', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->date('date');
+            $table->string('date');
             $table->string('name');
             $table->double('sum');
         });
